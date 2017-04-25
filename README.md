@@ -1,4 +1,7 @@
-# test coverage for  [osc (v2.2.0)](https://github.com/colinbdclark/osc.js)  [![npm package](https://img.shields.io/npm/v/npmtest-osc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osc.svg)](https://travis-ci.org/npmtest/node-npmtest-osc)
+# npmtest-osc
+
+#### basic test coverage for  [osc (v2.2.0)](https://github.com/colinbdclark/osc.js)  [![npm package](https://img.shields.io/npm/v/npmtest-osc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osc.svg)](https://travis-ci.org/npmtest/node-npmtest-osc)
+
 #### A JavaScript Open Sound Control (OSC) library that works in Node.js and the browser.
 
 [![NPM](https://nodei.co/npm/osc.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/osc)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-osc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-osc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-osc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-osc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-osc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-osc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-osc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-osc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-osc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-osc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-osc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-osc/build/coverage.html/index.html)
 
@@ -94,7 +97,8 @@
         "electron-test": "cd tests/electron-tests && npm install && node_modules/.bin/electron .",
         "test": "node tests/node-all-tests.js && grunt && npm run browser-test"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
